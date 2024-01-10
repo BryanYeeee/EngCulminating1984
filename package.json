@@ -1,0 +1,24 @@
+{
+  "name": "engculminating1984",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "buildreact": "npx babel ./src/components --out-dir ./public/components --watch",
+    "buildcss": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "gh-pages": "^6.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-react": "^7.23.3",
+    "tailwindcss": "^3.4.1"
+  }
+}
