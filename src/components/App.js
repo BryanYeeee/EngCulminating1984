@@ -1,10 +1,9 @@
 
-function App() {
-
+function App(props) {
 
     return (
-        <div className="-scroll-ml-6  scroll-smooth snap-mandatory snap-y">
-            TESTETSTETSETETSEE
+        <div id="content" className="p-[2%] mt-8 mb-8 w-3/5 bg-[#e3dcc8e0]">
+            DSADSADASD
         </div>
     );
 }
