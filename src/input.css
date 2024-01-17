@@ -18,3 +18,25 @@
 #content {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
+
+#vcoffeead {
+    background-image: url(./assets/VCoffeeAd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.text {
+    font-size:xx-large;
+}
+.title {
+    font-size: 3.5em;
+    font-weight: 900;
+    text-align: center;
+}
+.subtitle {
+    font-size:1.5em;
+    font-weight: 700;
+}
