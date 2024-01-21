@@ -14,7 +14,7 @@ function App(props) {
     className: "flex justify-content gap-6"
   }, /*#__PURE__*/React.createElement("div", {
     className: "w-1/3"
-  }, "Driven by their shared plusgood enthusiasm to destroy ", warTarget, ", huge crowds of people surged through the streets in roaring hatred. As the masses marched in unison, thousands of voicescould be heard shouting the barking rhythms of the Hate Song. As the song continued to be sung throughout the day and night,"), /*#__PURE__*/React.createElement("div", {
+  }, "Driven by their shared plusgood enthusiasm to destroy ", warTarget, ", huge crowds of people surged through the streets in roaring hatred. As the masses marched in unison, thousands of voices could be heard shouting the barking rhythms of the Hate Song. As the song continued to be sung throughout the day and night,"), /*#__PURE__*/React.createElement("div", {
     className: "w-1/3"
   }, "its passion and resonance carried across miles.", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), "Every corner of the city became filled with statues and waxwork displays. Banners adorned with images of Big Brother and were proudly draped across every building setting the perfect environment for Hate Week to happen."), /*#__PURE__*/React.createElement("div", {
     className: "w-1/3 flex flex-col"
@@ -81,7 +81,7 @@ function App(props) {
     src: "./assets/OratorSpeech.png"
   }), /*#__PURE__*/React.createElement("div", null, "\u201COur forces in South India have won yet again in a ruthless battle against the ", warTarget + "n", " forces. Our borders have expanded immensely and we will continue to push into ", warTarget + "n", " territory and claim the land that belongs to us! This war against Eastasia will soon come to an end, Comrades!\u201D - The Orator")), /*#__PURE__*/React.createElement("div", {
     className: "subtitle"
-  }, " Suddenly, the glorious celebration of hatred that was happening quickly turned into a plusungood disaster."), /*#__PURE__*/React.createElement("div", {
+  }, " Suddenly, the glorious celebration of hatred that was happening quickly turned into a doubleplusungood  disaster."), /*#__PURE__*/React.createElement("div", {
     className: "flex justify-content gap-8",
     ref: warSwapRef
   }, /*#__PURE__*/React.createElement("div", null, "All the banners around the square had been sabotaged and were decorated all wrong. The horrendous scarlet banners, which were supposed to have the faces of our Eastasian enemies, have been replaced by the faces of our Eurasian allies."), /*#__PURE__*/React.createElement("div", null, "Countless insider reports have come to the conclusion that this was the work of Goldstein\u2019s sinister agents. Many goodwise trained Junior Spies effortlessly climbed over rooftops cutting down streamers and taking down banners."), /*#__PURE__*/React.createElement("div", null, "Plusgood samaritans all around the square quickly went to work destroying the sabotaged banners, tearing down the Goldstein propaganda instantly. Once all of Goldstein\u2019s revolting banners were abolished and torn down, the orator concluded his grand speech and walked off the stage. The war against Eastasia continues, but Oceania, alongside our Eurasian allies, will not back down.")));
