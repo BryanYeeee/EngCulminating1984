@@ -43,3 +43,24 @@
     font-size:1.25em;
     font-weight: 700;
 }
+
+#content::-webkit-scrollbar {
+    width: 15px;
+}
+#content::-webkit-scrollbar {
+    height: 15x;
+}
+
+/* Track */
+#content::-webkit-scrollbar-track, .overflow-x-auto::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(47, 47, 47);
+    /* border-radius: 10px; */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* Handle */
+#content::-webkit-scrollbar-thumb, .overflow-x-auto::-webkit-scrollbar-thumb {
+    background: #856a44;
+    box-shadow: inset 0 0 5px rgb(33, 33, 33);
+    border-radius: 10px;
+}
