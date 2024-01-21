@@ -1,4 +1,4 @@
-import { Content } from "./content.js";
+import { Content } from "./Content.js";
 
 function App(props) {
     const warSwapRef = React.useRef();

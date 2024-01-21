@@ -8,6 +8,10 @@
     "buildcss": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
     "deploy": "gh-pages -d public"
   },
+  "repository": {
+    "url": "git+https://github.com/BryanYeeee/EngCulminating1984.git"
+  },
+  "homepage": "https://bryanyeeee.github.io/EngCulminating1984/",
   "keywords": [],
   "author": "",
   "license": "ISC",
