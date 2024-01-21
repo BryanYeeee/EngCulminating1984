@@ -2,6 +2,7 @@ import { Content } from "./Content.js";
 
 function App(props) {
     const warSwapRef = React.useRef();
+    const contentRef = React.useRef();
     let [curPage, setPage] = new React.useState(0)
     let [products, setProducts] = new React.useState([[145, 95, 165, 300, 105], [20, 15, 10, 35, 18], [145, 95, 165, 300, 105], [20, 15, 10, 35, 18], 20])
     let [warTarget, setWarTarget] = new React.useState('Eurasia')
@@ -15,7 +16,7 @@ function App(props) {
                     As the masses marched in unison, thousands of voices could be heard shouting the barking rhythms of the Hate Song.
                     As the song continued to be sung throughout the day and night,
                 </div>
-                <div className="w-1/3"> 
+                <div className="w-1/3">
                     its passion and resonance carried across miles.
                     <br />
                     <br />
@@ -175,6 +176,7 @@ function App(props) {
             newProducts[4] = random(15, 26)
             setProducts(newProducts)
         }
+        contentRef.current.scrollTop = 0
     }
 
     const pages = [page0, page1, page2];
@@ -196,7 +198,7 @@ function App(props) {
     return (
         <>
             <div className="w-4/5 flex justify-center">
-                <Content curPage={curPage} pages={pages} />
+                <Content curPage={curPage} pages={pages} setRef={contentRef} />
             </div>
             <div id="control" className="w-1/5 absolute h-full right-0 top-0 bg-[#2E2C2D] border-[#4d4d4d] border-x-[20px] p-[15px] outline-[15px] flex flex-col justify-around">
                 <div className="h-64 text-white flex justify-center">
