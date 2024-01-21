@@ -12,7 +12,7 @@ function App(props) {
             <div className="flex justify-content gap-6">
                 <div className="w-1/3">
                     Driven by their shared plusgood enthusiasm to destroy {warTarget}, huge crowds of people surged through the streets in roaring hatred.
-                    As the masses marched in unison, thousands of voicescould be heard shouting the barking rhythms of the Hate Song.
+                    As the masses marched in unison, thousands of voices could be heard shouting the barking rhythms of the Hate Song.
                     As the song continued to be sung throughout the day and night,
                 </div>
                 <div className="w-1/3"> 
@@ -129,7 +129,7 @@ function App(props) {
                     This war against Eastasia will soon come to an end, Comrades!” - The Orator
                 </div>
             </div>
-            <div className="subtitle"> Suddenly, the glorious celebration of hatred that was happening quickly turned into a plusungood disaster.</div>
+            <div className="subtitle"> Suddenly, the glorious celebration of hatred that was happening quickly turned into a doubleplusungood  disaster.</div>
             <div className="flex justify-content gap-8" ref={warSwapRef}>
                 <div>
                     All the banners around the square had been sabotaged and were decorated all wrong.
