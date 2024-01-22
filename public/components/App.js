@@ -80,11 +80,12 @@ function App(props) {
   }, /*#__PURE__*/React.createElement("img", {
     className: "",
     src: "./assets/OratorSpeech.png"
-  }), /*#__PURE__*/React.createElement("div", null, "\u201COur forces in South India have won yet again in a ruthless battle against the ", warTarget + "n", " forces. Our borders have expanded immensely and we will continue to push into ", warTarget + "n", " territory and claim the land that belongs to us! This war against Eastasia will soon come to an end, Comrades!\u201D - The Orator")), /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/React.createElement("div", {
+    ref: warSwapRef
+  }, "\u201COur forces in South India have won yet again in a ruthless battle against the ", warTarget + "n", " forces. Our borders have expanded immensely and we will continue to push into ", warTarget + "n", " territory and claim the land that belongs to us! This war against Eastasia will soon come to an end, Comrades!\u201D - The Orator")), /*#__PURE__*/React.createElement("div", {
     className: "subtitle"
   }, " Suddenly, the glorious celebration of hatred that was happening quickly turned into a doubleplusungood  disaster."), /*#__PURE__*/React.createElement("div", {
-    className: "flex justify-content gap-8",
-    ref: warSwapRef
+    className: "flex justify-content gap-8"
   }, /*#__PURE__*/React.createElement("div", null, "All the banners around the square had been sabotaged and were decorated all wrong. The horrendous scarlet banners, which were supposed to have the faces of our Eastasian enemies, have been replaced by the faces of our Eurasian allies."), /*#__PURE__*/React.createElement("div", null, "Countless insider reports have come to the conclusion that this was the work of Goldstein\u2019s sinister agents. Many goodwise trained Junior Spies effortlessly climbed over rooftops cutting down streamers and taking down banners."), /*#__PURE__*/React.createElement("div", null, "Plusgood samaritans all around the square quickly went to work destroying the sabotaged banners, tearing down the Goldstein propaganda instantly. Once all of Goldstein\u2019s revolting banners were abolished and torn down, the orator concluded his grand speech and walked off the stage. The war against Eastasia continues, but Oceania, alongside our Eurasian allies, will not back down.")));
   const random = (min, max) => {
     min = Math.ceil(min);

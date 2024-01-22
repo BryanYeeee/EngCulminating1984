@@ -124,14 +124,14 @@ function App(props) {
             </div>
             <div className="flex justify-between gap-6 my-8">
                 <img className="" src="./assets/OratorSpeech.png"></img>
-                <div>
+                <div ref={warSwapRef}>
                     “Our forces in South India have won yet again in a ruthless battle against the {warTarget + "n"} forces.
                     Our borders have expanded immensely and we will continue to push into {warTarget + "n"} territory and claim the land that belongs to us!
                     This war against Eastasia will soon come to an end, Comrades!” - The Orator
                 </div>
             </div>
             <div className="subtitle"> Suddenly, the glorious celebration of hatred that was happening quickly turned into a doubleplusungood  disaster.</div>
-            <div className="flex justify-content gap-8" ref={warSwapRef}>
+            <div className="flex justify-content gap-8">
                 <div>
                     All the banners around the square had been sabotaged and were decorated all wrong.
                     The horrendous scarlet banners, which were supposed to have the faces of our Eastasian enemies, have been replaced by the faces of our Eurasian allies.
