@@ -51,7 +51,7 @@ function App(props) {
     const page1 = (
         <div className="text">
             <div className="title">{(warTarget + "n").toUpperCase()} ATTACKS UPRISE</div>
-            <div className="subtitle">Screams of chaos roar throughout the streets of Airstrip One as Hate Week begins. </div>
+            <div className="subtitle">Screams of chaos roar throughout the streets of Airstrip One as Hate Week continues. </div>
             <div className="flex justify-content gap-6">
                 <div className="w-1/3 flex flex-col">
                     {warTarget + "n"} rocket bombs are drastically becoming more frequent in their attempt to breach our impenetrable borders.
