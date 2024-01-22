@@ -39,7 +39,7 @@ function App(props) {
     className: "title"
   }, (warTarget + "n").toUpperCase(), " ATTACKS UPRISE"), /*#__PURE__*/React.createElement("div", {
     className: "subtitle"
-  }, "Screams of chaos roar throughout the streets of Airstrip One as Hate Week begins. "), /*#__PURE__*/React.createElement("div", {
+  }, "Screams of chaos roar throughout the streets of Airstrip One as Hate Week continues. "), /*#__PURE__*/React.createElement("div", {
     className: "flex justify-content gap-6"
   }, /*#__PURE__*/React.createElement("div", {
     className: "w-1/3 flex flex-col"

@@ -6,8 +6,14 @@ export function Content(props) {
   }, /*#__PURE__*/React.createElement("div", {
     className: "absolute left-0 top-3 text-[#e3dcc8] flex justify-center w-[98%]"
   }, "Ignorance is Strength. Freedom is Slavery. War is Peace."), /*#__PURE__*/React.createElement("div", {
-    className: "text-[3.5em] font-black flex justify-center"
-  }, "- - - THE TIMES - - -"), /*#__PURE__*/React.createElement("div", {
+    className: "text-[3.5em] font-black flex justify-between"
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "h-20",
+    src: "./assets/BB.png"
+  }), "- - - THE TIMES - - -", /*#__PURE__*/React.createElement("img", {
+    className: "h-20    ",
+    src: "./assets/BB.png"
+  })), /*#__PURE__*/React.createElement("div", {
     className: "text-[1.8em] font-[700] border-black border-y-8 flex justify-between items-center"
   }, /*#__PURE__*/React.createElement("div", {
     className: "w-1/3 flex justify-center"
@@ -16,6 +22,12 @@ export function Content(props) {
   }, "Issue#", 471 + props.curPage), /*#__PURE__*/React.createElement("div", {
     className: "w-1/3 flex justify-center"
   }, "Minitrue")), props.pages[props.curPage], /*#__PURE__*/React.createElement("div", {
-    className: "text-[#e3dcc8] flex justify-center w-full"
-  }, "BIG BROTHER IS WATCHING YOU."));
+    className: "text-[#e3dcc8] flex justify-between w-full"
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "h-20",
+    src: "./assets/BB.png"
+  }), "BIG BROTHER IS WATCHING YOU.", /*#__PURE__*/React.createElement("img", {
+    className: "h-20    ",
+    src: "./assets/BB.png"
+  })));
 }
